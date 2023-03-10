@@ -48,4 +48,47 @@ AttributeError: returnPrint has an invalid value of {returnPrint}
 ```
 
 ## V2
-Coming Soon
+~Coming Soon~
+Its here! The examples may look the same but there are some general fixes.
+
+**Basic Info Logging**
+```python
+from logmaster import Info # make sure to use Info and not info
+
+infoobj = Info()
+
+infoobj.log("tst")
+```
+
+**Basic WARN Logging**
+```python
+from logmaster import Warn
+
+warnobj = Warn()
+
+wobj.log(alert="This is a warn!!!")
+```
+
+### Custom Color Objects
+***TO DO THIS AND PREVENT ERRORS USE COLORAMA***
+
+**Warn vvvv**
+```python
+from logmaster import Warn
+from colorama import Fore as Color
+
+wobj = Warn(cus_braket=Color.CYAN, cus_wWarnarn=Color.CYAN, cus_text=Color.CYAN) # this is all the custom color abilities
+
+wobj.log("tst")
+```
+
+**Info vvvv**
+```python
+from logmaster import Info
+from colorama import Fore as Color
+
+infoobj = Info(cus_braket=Color.CYAN, cus_info=Color.CYAN, cus_text=Color.CYAN) # this is all the custom color abilities
+
+infoobj.log("tst")
+```
+***RETURNPRINT IS THE SAME AS V1 DOCUMENTATION***
