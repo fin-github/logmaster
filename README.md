@@ -4,6 +4,15 @@ allows you to log things easier with color
 # needed packages
 - Colorama
 
+# Coming Soon
+- [x] Warn
+
+- [] Error
+
+- [x] Nocolor (only on warn currently)
+
+- [] File Logging
+
 # code examples
 
 ```python
