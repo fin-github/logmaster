@@ -7,11 +7,11 @@ allows you to log things easier with color
 # Coming Soon
 - [x] Warn
 
-- [] Error
+- [ ] Error
 
 - [x] Nocolor (only on warn currently)
 
-- [] File Logging
+- [ ] File Logging
 
 # code examples
 
