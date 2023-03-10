@@ -17,6 +17,9 @@ allows you to log things easier with color
 
 ## V1
 
+***ALWAYS GO TO THE LATEST VER TO PREVENT BUGS***
+*if you use v1 code in v2 it will warn you in some cases*
+
 ```python
 from logmaster import info
 
