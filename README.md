@@ -26,3 +26,9 @@ infoobj.log("tst")
 ```
 
 OUTPUT = [INFO]  tst
+### returnPrint
+adding returnPrint=True to infoobj.log() instead of printing ther output it will return the output.
+if there are bad arguments for it, it will display this error:
+```
+AttributeError: returnPrint has an invalid value of {returnPrint}
+```
