@@ -15,6 +15,8 @@ allows you to log things easier with color
 
 # code examples
 
+## V1
+
 ```python
 from logmaster import info
 
@@ -41,3 +43,6 @@ if there are bad arguments for it, it will display this error:
 ```python
 AttributeError: returnPrint has an invalid value of {returnPrint}
 ```
+
+## V2
+Coming Soon
